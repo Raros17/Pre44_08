@@ -1,0 +1,40 @@
+.SideRight {
+  margin-top: 53px;
+}
+
+.SideRightContainer {
+  background-color: rgb(255, 246, 216);
+  width: 300px;
+  height: 410px;
+  font-size: 15px;
+}
+
+.RightSide_Item {
+  background-color: rgb(255, 246, 229);
+}
+
+.RightSide_Item > div {
+  display: flex;
+}
+
+.SideRightContainer > div {
+  border: 1px solid rgb(252, 233, 194);
+}
+
+.SideRightContainer > div {
+  padding: 12px 16px;
+}
+
+.SideRight_Top {
+  font-weight: 600;
+}
+.SideRight_Body {
+  font-weight: 600;
+}
+.SideRight_Bottom {
+  font-weight: 600;
+}
+
+.RightSide_Item > div > div:nth-child(2) {
+  padding-left: 10px;
+}

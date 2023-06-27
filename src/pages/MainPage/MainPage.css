@@ -1,0 +1,87 @@
+/* Main Page와 Question Item Page 스타일 상당수 중복 */
+
+.flex-question-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#content-question-page {
+  max-width: 1100px;
+  width: calc(100% - 164px);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  flex: 1 1 0;
+  border-left: 0.8px solid rgb(214, 217, 220);
+}
+
+#mainbar-question-page {
+  width: calc(100% - 324px);
+  flex: 1 1 0;
+  padding-right: 16px;
+}
+
+#left-sidebar {
+  width: 160px;
+  flex-shrink: 0;
+}
+
+#flex-list-title {
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1#question-page {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  font-size: 2.07rem;
+  color: rgb(35, 38, 41);
+  margin-left: 2rem;
+}
+
+.s-btn {
+  cursor: pointer;
+  color: white;
+  padding: 0px 10.4px;
+  background-color: #0a95ff;
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 37.4px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, 0.4);
+  user-select: none;
+  flex-shrink: 0;
+  border: none;
+}
+
+.s-btn:hover {
+  background-color: hsl(206, 100%, 40%);
+}
+
+.s-btn:active {
+  background-color: var(--blue-700);
+  box-shadow: 0 0 0 4px rgba(0, 116, 204, 0.15);
+}
+
+.count-questions {
+  font-size: 1.30769231rem;
+  margin-bottom: 12px;
+  margin-left: 2rem;
+}
+
+h1 {
+  display: block;
+  font-size: 2.07rem;
+  color: rgb(35, 38, 41);
+  word-break: break-all;
+}
+
+.count-questions {
+  font-size: 1.30769231rem;
+  margin-bottom: 12px;
+}
+
+.question-list > article:nth-last-of-type(1) {
+  border-bottom: 0.8px solid rgb(227, 230, 232);
+}

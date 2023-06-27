@@ -1,0 +1,58 @@
+h2#your-answer-header {
+  font-size: 1.46153846rem;
+  padding-top: 10px;
+  margin: 0 0 1em;
+}
+
+textarea#post-editor {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+
+#post-preview {
+  margin: 10px 0px;
+}
+
+#post-preview > p {
+  min-height: 7px;
+}
+
+.post-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cancle-btn {
+  cursor: pointer;
+  color: rgb(0, 116, 204);
+  padding: 0px 10.4px;
+  background-color: rgba(0, 0, 0, 0);
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 37.4px;
+  border-radius: 3px;
+  user-select: none;
+  flex-shrink: 0;
+  border: none;
+}
+
+.cancle-btn:is(:hover, :active, :focus) {
+  color: rgb(0, 99, 191);
+}
+.cancle-btn:is(:hover, :focus) {
+  background-color: rgb(240, 248, 255);
+}
+
+.cancle-btn:active {
+  background-color: rgb(205, 233, 254);
+}
+
+.cancle-btn:focus {
+  box-shadow: rgba(0, 116, 204, 0.15) 0px 0px 0px 4px;
+}
+
+.post-preview > p {
+  min-height: 7px;
+}

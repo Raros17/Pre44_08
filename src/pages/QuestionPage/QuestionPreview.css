@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+  color: rgb(0, 116, 204);
+}
+
+.preview-layout {
+  padding: 0px;
+  border-top: 0.8px solid rgb(227, 230, 232);
+}
+
+#preview-content {
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.preview-layout--left {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-right: 16px;
+  width: 108px;
+}
+
+.preview-layout--left > div {
+  height: 17px;
+  line-height: 17px;
+  margin-bottom: 6px;
+}
+
+.preview-layout--right {
+  font-weight: 400;
+  flex: 1 0 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.preview-layout--right .preview-information {
+  align-self: flex-end;
+}
+
+.preview-title {
+  cursor: pointer;
+  color: rgb(0, 116, 204);
+  line-height: 22px;
+  font-size: 17px;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.preview-body {
+  color: rgb(59, 64, 69);
+  font-size: 13px;
+  word-break: break-all;
+}
+
+.profile-preview {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.profile-preview > img {
+  width: 16px;
+  height: 16px;
+}
+.profile-preview > span {
+  color: rgb(0, 116, 204);
+  font-size: 13px;
+  margin: 0px 5px;
+}
+.profile-preview > time {
+  color: rgb(106, 115, 124);
+  font-size: 11px;
+}

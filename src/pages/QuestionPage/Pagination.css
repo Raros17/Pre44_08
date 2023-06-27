@@ -1,0 +1,21 @@
+.flex-pagination {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-button {
+  margin: 10px;
+  border: 0.8px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  color: rgb(59, 64, 69);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px 8px;
+}
+
+.page-selected {
+  background-color: rgb(244, 130, 37);
+  color: rgb(255, 255, 255);
+  cursor: auto;
+}

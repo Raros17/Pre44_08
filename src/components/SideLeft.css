@@ -1,0 +1,33 @@
+.SideLeft {
+  margin-top: 53px;
+}
+
+.SideLeft_Container {
+  width: 164px;
+  height: 164px;
+  border: 1px solid rgb(205, 205, 205);
+  padding-left: 0px;
+}
+
+.SideLeft_Container > li {
+  list-style: none;
+  padding: 4px 4px 4px 8px;
+}
+
+.SideLeft_Container > li:nth-child(1),
+.SideLeft_Container > li:nth-child(3) {
+  cursor: pointer;
+  color: rgb(99, 99, 99);
+}
+
+.SideLeft_Container > li.bold {
+  font-weight: bold;
+}
+
+.SideLeft_Container > li:nth-child(2) {
+  color: rgb(150, 150, 150);
+}
+
+.SideLeft_Container > li.background-gray {
+  background-color: rgb(240, 240, 240);
+}

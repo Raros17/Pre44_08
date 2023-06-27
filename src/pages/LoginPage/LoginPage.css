@@ -1,0 +1,152 @@
+body{
+    background-color: #F1F2F3;    
+}
+
+input:focus {outline:3px solid #86cbff; border:2px solid rgb(106, 158, 198); border-radius: 3px;}
+
+button {
+   border: 0;
+   outline: 0;
+}
+a {
+    text-decoration-line: none;
+}
+
+.stackoverflow-icon {
+    color:rgb(233, 102, 1);
+}
+
+.login-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+.login-buttons {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 16px;
+}
+
+.login-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.login-button {
+   padding: 10.4px;
+   width: 316px;
+   height: 38px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin-bottom: 6px;
+   border-radius: 5px;
+   font-size: 13px;
+   
+   font-weight: 800;
+}
+
+.login-buttons .fa-brands{
+    margin-right: 5px;
+}
+.login-buttons .with-google {
+   background-color: #fff;
+   border: 1px solid #c4c4c4;
+   
+}
+.login-buttons .with-google:hover {
+   background-color: #f6f6f6;
+}
+.login-buttons .with-github {
+   background-color: #212121;
+   color: #fff;
+}
+.login-buttons .with-github:hover {
+   background-color: #000000;
+}
+.login-buttons .with-facebook {
+   background-color: #385499;
+   color: #fff;
+}
+.login-buttons .with-facebook:hover {
+   background-color: #314986;
+   color: #fff;
+}
+
+.login-section {
+   height: 100%;   
+   margin: 30px 0;
+}
+
+.login-area {
+   width: 316px;
+   background-color: #fff;
+   border-radius: px;
+   box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.login-area .input-area {
+   font-size: 15px;
+   font-weight: 500;
+}
+
+.login-area .input-area input {
+   width: 268px;
+   padding: 7.8px 9px;
+   box-sizing: border-box;
+   margin: 15px 0;    
+   font-family: inherit;
+}
+
+.login-area .input-area .login-button {
+   background-color:#0A95FF;
+   color: #fff;
+   width: 268px;
+   height: 37.63px;
+   border-radius: 5px;
+   margin: 15px 0;
+}
+.login-area .input-area .login-button:hover {
+   background-color:#0973c3;
+   cursor: pointer;
+}
+
+.login-content {
+   font-size: 12px;
+   color: #6A737C;
+   line-height: 1.3;
+}
+
+.login-warning {
+   color: rgb(182, 38, 38);
+   margin-top: px;
+}
+
+.login-content span {
+   color: #0973c3;
+   padding-left: 5px;
+}
+.login-content span:hover {
+    color: #35a0f2;
+ }
+
+.login-password {
+   margin-bottom: 10px;
+}
+
+.to-signup {
+   margin-top: 15px
+}
+
+label {
+   cursor: pointer;
+   font-weight: 800;
+}
+
+.login-warning {   
+   color: rgb(182, 38, 38);
+}
